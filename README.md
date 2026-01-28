@@ -22,7 +22,7 @@ This repository implements a market-neutral **pair trading strategy** on BTC and
 - Binance 6-hour OHLCV historical data
 - Rolling OLS regression to compute dynamic hedge ratio (β)
 - Mean-reversion detection with rolling z-score
-- Entry/exit logic using |z-score| > 1.5 and < 0.5
+- Entry/exit logic using |z-score| > 2. and < 0.5
 - Backtest engine with:
   - Realistic fee modeling
   - Cumulative PnL and compounded return
